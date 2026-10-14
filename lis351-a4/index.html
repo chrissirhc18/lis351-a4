@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple student guide to budgeting, saving, and understanding money.">
+  <title>Money, Simply | Student Finance Basics</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="#home">Money<span>, Simply.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#basics">The basics</a>
+        <a href="#practice">Try it out</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero-content">
+        <p class="eyebrow">Small habits. Clear goals.</p>
+        <h1 id="hero-title">Make room for<br>what matters.</h1>
+        <p class="hero-description">A student-friendly starting point for understanding your money, organizing your spending, and planning ahead.</p>
+        <div class="button-row">
+          <a class="button button-primary" href="#basics">Explore the basics</a>
+          <a class="button button-outline" href="#practice">Try a simple example</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="basics" aria-labelledby="basics-title">
+      <div class="container">
+        <p class="eyebrow">01 / Build your foundation</p>
+        <h2 id="basics-title">Three habits to start with.</h2>
+        <p class="section-intro">You do not need a complicated system. Start by knowing what comes in, what goes out, and what you want to work toward.</p>
+        <div class="features-row">
+          <article class="feature">
+            <span class="number">01</span>
+            <h3>Know your spending</h3>
+            <p>List your monthly income and expenses. Separate essentials, like rent and groceries, from optional purchases.</p>
+            <a class="text-link" href="#budget-example">See a sample budget <span aria-hidden="true">&rarr;</span></a>
+          </article>
+          <article class="feature">
+            <span class="number">02</span>
+            <h3>Set a clear goal</h3>
+            <p>Pick something specific to save for. Write down the amount and a timeline so your progress is easy to track.</p>
+            <a class="text-link" href="#saving-example">See a savings example <span aria-hidden="true">&rarr;</span></a>
+          </article>
+          <article class="feature">
+            <span class="number">03</span>
+            <h3>Check in regularly</h3>
+            <p>Choose a time each week to review your spending. Adjust your plan when your expenses or priorities change.</p>
+            <a class="text-link" href="#weekly-check">Use the weekly checklist <span aria-hidden="true">&rarr;</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section practice-section" id="practice" aria-labelledby="practice-title">
+      <div class="container">
+        <p class="eyebrow">02 / Put it into practice</p>
+        <h2 id="practice-title">Start small. Make it repeatable.</h2>
+        <p class="section-intro">These fictional examples show how to turn a general idea into a simple plan.</p>
+        <div class="cards-row">
+          <article class="card" id="budget-example">
+            <img src="images/budget.svg" alt="Illustration of a notebook with three budget categories" width="600" height="320">
+            <div class="card-body">
+              <p class="eyebrow">An example month</p>
+              <h3>Give each dollar a purpose.</h3>
+              <p>Imagine $1,200 available after taxes. Here is one possible breakdown for practice:</p>
+              <dl class="budget-list">
+                <div><dt>Essential expenses</dt><dd>$800</dd></div>
+                <div><dt>Optional spending</dt><dd>$250</dd></div>
+                <div><dt>Savings</dt><dd>$150</dd></div>
+                <div class="total"><dt>Total</dt><dd>$1,200</dd></div>
+              </dl>
+              <p class="card-note">Your own amounts will depend on your income and expenses.</p>
+            </div>
+          </article>
+          <article class="card" id="saving-example">
+            <img src="images/saving.svg" alt="Illustration of a savings jar beside a calendar" width="600" height="320">
+            <div class="card-body">
+              <p class="eyebrow">A goal with a timeline</p>
+              <h3>Turn “someday” into a plan.</h3>
+              <p>For a fictional $300 goal over six months, setting aside $50 each month reaches the target, ignoring interest.</p>
+              <div class="goal-summary"><strong>$50</strong><span>per month &times; 6 months = $300</span></div>
+              <p>Give the goal a name, track the amount saved, and revisit the timeline if your situation changes.</p>
+              <a class="button button-primary" href="#weekly-check">Review your plan</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="weekly-check" aria-labelledby="check-title">
+      <div class="container check-panel">
+        <div>
+          <p class="eyebrow">03 / Keep the habit</p>
+          <h2 id="check-title">Your weekly money check.</h2>
+          <p>Set aside a few minutes to keep your plan up to date.</p>
+        </div>
+        <ol class="checklist">
+          <li>Review the purchases you made this week.</li>
+          <li>Check which bills are coming up next.</li>
+          <li>Record your progress toward your savings goal.</li>
+          <li>Choose one adjustment for the coming week.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="container about-content">
+        <p class="eyebrow">About this project</p>
+        <h2 id="about-title">A little clarity goes a long way.</h2>
+        <p>Money, Simply is a fictional student learning website created by Isaiah Lopez for LIS 351 CSS practice. It uses semantic HTML, flexbox, and a consistent visual style to make introductory ideas easy to explore.</p>
+        <a class="text-link" href="#home">Back to the top <span aria-hidden="true">&uarr;</span></a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; 2026 Christian Mendoza &middot; Money, Simply.</p>
+      <p>LIS 351 A4</p>
+    </div>
+  </footer>
+</body>
+</html>
